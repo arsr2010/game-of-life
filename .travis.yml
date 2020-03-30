@@ -1,5 +1,5 @@
 language: java
-  jdk: 
+  java: 
     - openjdk8
  script:  ./mvn clean install 
  notifications:
