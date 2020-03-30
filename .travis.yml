@@ -1,6 +1,6 @@
 language: java
-  java: 
-    - openjdk8
+jdk:
+  - openjdk
  script:  ./mvn clean install 
  notifications:
    email: arraju.mca@gmail.com
